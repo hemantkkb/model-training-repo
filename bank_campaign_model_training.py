@@ -107,6 +107,7 @@ def main():
     write_metrics_to_bigquery(model_name, training_time, accuracy_metrics)
     save_model_artifact(model_name,pipeline)
 
+
 if __name__ == "__main__":
     main()
 
